@@ -1,15 +1,19 @@
-import { Box } from "@mui/material";
+import { Box, Container } from "@mui/material";
+import Courses from "./Courses/Courses";
 
 const PageHome = () => {
   return (
-    <Box
-      height="100vh"
-      alignItems="center"
-      justifyContent="center"
-      display="flex"
-    >
-      PageHome
-    </Box>
+    <Container maxWidth="lg">
+      <Box
+        alignItems="center"
+        justifyContent="center"
+        display="flex"
+        flexDirection="column"
+        sx={{ height: { md: "100vh" } }}
+      >
+        <Courses />
+      </Box>
+    </Container>
   );
 };
 export default PageHome;

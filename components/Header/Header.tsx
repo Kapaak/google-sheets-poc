@@ -5,7 +5,7 @@ import * as S from "./Header.style";
 
 const Header = () => {
   return (
-    <S.AppBar position="relative">
+    <S.AppBar position="sticky">
       <S.Toolbar>
         <Logo />
         <Navigation />

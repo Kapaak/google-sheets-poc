@@ -35,15 +35,15 @@ const Course = ({ image, link, name, path, description }: Props) => {
         display="flex"
         flexDirection="column"
         flex="1"
-        sx={{ minHeight: { md: "14rem" } }}
+        sx={{ minHeight: { md: "13rem" } }}
       >
-        <CardContent>
-          <Typography variant="h6" component="h2">
+        <CardContent sx={{ padding: "1rem .6rem" }}>
+          <Typography variant="h6" component="h2" marginBottom="0">
             {name}
           </Typography>
         </CardContent>
-        <CardContent>
-          <Typography variant="body2" component="p">
+        <CardContent sx={{ padding: "1rem .6rem" }}>
+          <Typography variant="body2" paragraph marginBottom="0">
             {description}
           </Typography>
         </CardContent>

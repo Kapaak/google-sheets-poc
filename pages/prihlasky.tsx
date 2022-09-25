@@ -87,8 +87,8 @@ const Prihlasky: NextPage = () => {
               <FormControl>
                 <FormLabel>Jak jste se o nás dozvěděli?</FormLabel>
                 <Typography>
-                  Například "z vyhledávání na internetu či FB, od známých, z
-                  reklamy v MHD, z letáčků, ze slevových kupónů....."
+                  Například z vyhledávání na internetu či FB, od známých, z
+                  reklamy v MHD, z letáčků, ze slevových kupónů.....
                 </Typography>
                 <FormGroup sx={{ alignItems: "flex-start" }}>
                   <FormControlLabel
